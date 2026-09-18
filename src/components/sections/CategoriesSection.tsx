@@ -1,18 +1,16 @@
-import { BookOpen, Shield, GitCompare, Swords, Cross, Moon, BookMarked, Layers } from "lucide-react";
+import { TrendingUp, Zap, Flame, Brain, Trophy, Target } from "lucide-react";
 import { motion } from "framer-motion";
 import Container from "@/components/layout/Container";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/shared/animations";
 import { cn } from "@/lib/utils";
 
 const categoryCards = [
-  { name: "Biblical Theology", slug: "biblical-theology", icon: BookOpen, count: "1 title", gradient: "from-blue-500 to-blue-600", bgColor: "bg-blue-500/10" },
-  { name: "Christian Apologetics", slug: "christian-apologetics", icon: Shield, count: "2 titles", gradient: "from-green-500 to-green-600", bgColor: "bg-green-500/10" },
-  { name: "Comparative Religion", slug: "comparative-religion", icon: GitCompare, count: "1 title", gradient: "from-yellow-500 to-yellow-600", bgColor: "bg-yellow-500/10" },
-  { name: "Debate & Polemics", slug: "debate-polemics", icon: Swords, count: "1 title", gradient: "from-purple-500 to-purple-600", bgColor: "bg-purple-500/10" },
-  { name: "Deity of Christ", slug: "deity-of-christ", icon: Cross, count: "1 title", gradient: "from-orange-500 to-orange-600", bgColor: "bg-orange-500/10" },
-  { name: "Islamic Apologetics", slug: "islamic-apologetics", icon: Moon, count: "1 title", gradient: "from-pink-500 to-pink-600", bgColor: "bg-pink-500/10" },
-  { name: "Qur'an & Hadith Studies", slug: "quran-hadith-studies", icon: BookMarked, count: "1 title", gradient: "from-red-500 to-red-600", bgColor: "bg-red-500/10" },
-  { name: "Trinity", slug: "trinity", icon: Layers, count: "1 title", gradient: "from-teal-500 to-teal-600", bgColor: "bg-teal-500/10" },
+  { name: "Personal Growth", slug: "personal-growth", icon: TrendingUp, count: "3 titles", gradient: "from-emerald-500 to-emerald-600", bgColor: "bg-emerald-500/10" },
+  { name: "Productivity", slug: "productivity", icon: Zap, count: "2 titles", gradient: "from-yellow-500 to-yellow-600", bgColor: "bg-yellow-500/10" },
+  { name: "Stoicism", slug: "stoicism", icon: Flame, count: "2 titles", gradient: "from-orange-500 to-orange-600", bgColor: "bg-orange-500/10" },
+  { name: "Psychology", slug: "psychology", icon: Brain, count: "2 titles", gradient: "from-purple-500 to-purple-600", bgColor: "bg-purple-500/10" },
+  { name: "Success", slug: "success", icon: Trophy, count: "2 titles", gradient: "from-blue-500 to-blue-600", bgColor: "bg-blue-500/10" },
+  { name: "Leadership", slug: "leadership", icon: Target, count: "2 titles", gradient: "from-red-500 to-red-600", bgColor: "bg-red-500/10" },
 ];
 
 export default function CategoriesSection() {
