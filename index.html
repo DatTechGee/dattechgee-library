@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DatTechGee Library - Global Digital Books & Education Platform</title>
+    <meta name="title" content="DatTechGee Library - Global Digital Books & Education Platform" />
+    <meta name="description" content="Access and download books from around the world. Quality digital resources across all genres - business, technology, science, fiction, and more." />
+    <meta name="keywords" content="digital library, read books online, download books, free books, ebooks, online library, reading platform" />
+    <meta name="author" content="DatTechGee Library" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1e5ba8" />
+    <link rel="canonical" href="https://DatTechGeelibrary.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://DatTechGeelibrary.com/" />
+    <meta property="og:title" content="DatTechGee Library - Global Digital Books & Education Platform" />
+    <meta property="og:description" content="Access and download books from around the world. Quality digital resources across all genres - business, technology, science, fiction, and more." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://DatTechGeelibrary.com/" />
+    <meta name="twitter:title" content="DatTechGee Library - Global Digital Books & Education Platform" />
+    <meta name="twitter:description" content="Access and download books from around the world. Quality digital resources across all genres - business, technology, science, fiction, and more." />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DatTechGee Library" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+    <script>
+      // Apply saved / system theme BEFORE first paint to avoid flash.
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches;
+          if (stored === "dark" || (!stored && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DatTechGee Library",
+        "url": "https://DatTechGeelibrary.com",
+        "logo": "https://DatTechGeelibrary.com/image.png",
+        "description": "Access and download books from around the world. Quality digital resources across all genres - business, technology, science, fiction, and more.",
+        "sameAs": []
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div id="preloader" style="position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;transition:opacity .4s ease;">
+        <style>
+          @keyframes preloaderSpin { to { transform: rotate(360deg); } }
+          @keyframes preloaderPulse { 0%,100% { opacity: 1; } 50% { opacity: .4; } }
+          .dark #preloader { background: #0f1419; }
+          .preloader-ring { width:48px;height:48px;border:4px solid #e5e5e5;border-top-color:#1e5ba8;border-radius:50%;animation:preloaderSpin .8s linear infinite; }
+          .dark .preloader-ring { border-color: #333; border-top-color: #4D9FFF; }
+          .preloader-text { margin-top:20px;font-family:Satoshi,Avenir,Helvetica,Arial,sans-serif;font-size:1.125rem;font-weight:700;letter-spacing:-.02em;color:#1e5ba8;animation:preloaderPulse 1.5s ease-in-out infinite; }
+          .dark .preloader-text { color: #4D9FFF; }
+        </style>
+        <div class="preloader-ring"></div>
+        <div class="preloader-text">DatTechGee Library</div>
+      </div>
+    </div>
+    <noscript>
+      <div style="padding: 40px; text-align: center; font-family: sans-serif">
+        <h1>DatTechGee Library</h1>
+        <p>Please enable JavaScript to experience DatTechGee Library's website.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
