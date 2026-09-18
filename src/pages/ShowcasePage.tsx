@@ -309,20 +309,20 @@ export default function ShowcasePage() {
             {[
               {
                 name: "Basic",
-                price: "$0",
+                price: "₦0",
                 period: "month",
                 features: ["Feature A", "Feature B", "Email support"],
               },
               {
                 name: "Pro",
-                price: "$29",
+                price: "₦15,000",
                 period: "month",
                 features: ["Everything in Basic", "Feature C", "Priority support"],
                 highlighted: true,
               },
               {
                 name: "Enterprise",
-                price: "$99",
+                price: "₦50,000",
                 period: "month",
                 features: ["Everything in Pro", "Feature D", "Dedicated manager"],
               },
